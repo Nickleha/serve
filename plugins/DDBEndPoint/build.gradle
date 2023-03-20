@@ -8,8 +8,8 @@ dependencies {
     implementation "com.google.code.gson:gson:${gson_version}"
     implementation "org.pytorch:torchserve-plugins-sdk:${torchserve_sdk_version}"
     implementation platform('software.amazon.awssdk:bom:2.20.26')
-    implementation 'software.amazon.awssdk:dynamodb-enhanced'
-    implementation 'org.codehaus.groovy:groovy-all:2.3.11'
+    implementation 'software.amazon.awssdk:dynamodb-enhanced:2.20.26'
+    implementation 'org.codehaus.groovy:groovy-all:3.0.16'
     testImplementation "org.testng:testng:${testng_version}"
     testImplementation 'com.amazonaws:DynamoDBLocal:1.21.1'
 }
