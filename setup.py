@@ -40,7 +40,7 @@ build_frontend_command = {
 build_plugins_command = {
     "Windows": ".\\plugins\\gradlew.bat -p plugins clean bS",
     "Darwin": "plugins/gradlew -p plugins clean bS",
-    "Linux": "plugins/gradlew -p plugins clean bS --scan",
+    "Linux": "plugins/gradlew :plugins:tasks --all",
 }
 
 
