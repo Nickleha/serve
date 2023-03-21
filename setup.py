@@ -35,7 +35,7 @@ pkgs = find_packages(exclude=["ts_scripts", "test"])
 build_frontend_command = {
     "Windows": ".\\frontend\\gradlew.bat -p frontend clean assemble",
     "Darwin": "frontend/gradlew -p frontend clean assemble",
-    "Linux": "frontend/gradlew -p frontend clean assemble && frotend/gradlew frontend:dependencies",
+    "Linux": "frontend/gradlew -p frontend clean assemble && frontend/gradlew frontend:dependencies",
 }
 build_plugins_command = {
     "Windows": ".\\plugins\\gradlew.bat -p plugins clean bS",
