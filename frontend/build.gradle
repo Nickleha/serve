@@ -1,17 +1,17 @@
 buildscript {
   ext {
-    spotbugsVersion = '5.0.14'
-    toolVersion = '5.0.14'
+    spotbugsVersion = '4.0.2'
+    toolVersion = '4.0.2'
   }
   dependencies {
-    classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.13'
+    classpath 'com.google.protobuf:protobuf-gradle-plugin:0.9.2'
   }
 }
 
 plugins {
     id 'com.google.protobuf' version '0.9.2' apply false
     id 'idea'
-    id 'com.github.spotbugs' version '5.0.14' apply false
+    id 'com.github.spotbugs' version '4.0.2' apply false
 }
 
 allprojects {
